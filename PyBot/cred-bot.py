@@ -17,7 +17,7 @@ class Test2(unittest.TestCase):
     
     def test_2(self):
         driver = self.driver
-        driver.get("http://bot.bhanu.xyz/kona/dvwa/login.php")
+        driver.get("http://bot.test.xyz/kona/dvwa/login.php")
         driver.find_element_by_name("username").click()
         driver.find_element_by_name("username").clear()
         driver.find_element_by_name("username").send_keys("test1")
