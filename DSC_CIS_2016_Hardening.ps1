@@ -1,3 +1,6 @@
+#Authored by John de Jager - @johnde_jager
+#https://github.com/johndejager/DSC_CISConfigurations
+
   # Configuration Definition
 Configuration CIS_WindowsServer2016_v100_MS_lvl1 {
     param (
